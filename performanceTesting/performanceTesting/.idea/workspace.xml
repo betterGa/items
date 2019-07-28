@@ -13,16 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="performanceTesting.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../performanceTesting/performanceTesting.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="StringConcat.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StringConcat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/cases/StringConcat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
+            <state relative-caret-position="-54">
+              <caret line="220" column="9" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
               <folding>
                 <element signature="e#0#5772#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -34,7 +29,7 @@
       <file leaf-file-name="Measurement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/annotations/Measurement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="209">
               <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -47,36 +42,19 @@
         <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/BenchmarkCase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="241" column="16" lean-forward="true" selection-start-line="241" selection-start-column="16" selection-end-line="241" selection-end-column="16" />
+            <state relative-caret-position="-610">
+              <caret line="202" column="21" lean-forward="true" selection-start-line="202" selection-start-column="21" selection-end-line="202" selection-end-column="21" />
               <folding>
-                <element signature="e#0#9709#0" expanded="true" />
+                <element signature="e#0#8710#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BCaseLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/BCaseLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#681#689#0" expanded="true" />
-                <element signature="e#1131#1139#0" expanded="true" />
-                <element signature="e#1132#1147#0" expanded="true" />
-                <element signature="e#2919#2920#0" expanded="true" />
-                <element signature="e#2990#2991#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,9 +90,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bitstudy/cases/StringConcat.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bitstudy/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bitstudy/Runner.java" />
-        <option value="$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/Try.java" />
-        <option value="$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/List.java" />
-        <option value="$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/BrenchLoad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitstudy/Try.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitstudy/List.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitstudy/BrenchLoad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitstudy/BCaseLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitstudy/Runner.java" />
         <option value="$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/BCaseLoader.java" />
         <option value="$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/Runner.java" />
       </list>
@@ -130,8 +110,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-86" />
-    <option name="y" value="-10" />
+    <option name="x" value="-22" />
+    <option name="y" value="-15" />
     <option name="width" value="1376" />
     <option name="height" value="788" />
   </component>
@@ -141,7 +121,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,6 +188,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,14 +315,16 @@
       <workItem from="1563092316446" duration="4688000" />
       <workItem from="1563098910760" duration="2896000" />
       <workItem from="1563172181527" duration="19708000" />
+      <workItem from="1563245783033" duration="5801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52238000" />
+    <option name="totallyTimeSpent" value="58039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -354,7 +336,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8023426" weight="0.30708662" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8023426" visible="true" weight="0.17322835" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -429,7 +411,7 @@
         <state relative-caret-position="2147">
           <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
           <folding>
-            <element signature="e#0#9709#0" expanded="true" />
+            <element signature="e#0#8710#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -481,7 +463,7 @@
         <state relative-caret-position="1026">
           <caret line="64" column="6" lean-forward="true" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
           <folding>
-            <element signature="e#0#9709#0" expanded="true" />
+            <element signature="e#0#8710#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -540,7 +522,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
-            <element signature="e#0#9709#0" expanded="true" />
+            <element signature="e#0#8710#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -592,7 +574,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#0#9709#0" expanded="true" />
+            <element signature="e#0#8710#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -660,35 +642,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/BCaseLoader/BCaseLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/Try.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/BCaseLoader/BCaseLoader.java" />
+    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/List.java" />
+    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/Try.java" />
     <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/BCaseLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="42" column="5" lean-forward="true" selection-end-line="67" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#662#670#0" expanded="true" />
-            <element signature="e#1079#1094#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,35 +662,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../performanceTesting/performanceTesting.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/annotations/Benchmark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/annotations/Measurement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/cases/StringConcat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
-          <folding>
-            <element signature="e#0#5772#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -741,17 +679,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/BCaseLoader.java">
+    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="-610">
+          <caret line="202" column="21" lean-forward="true" selection-start-line="202" selection-start-column="21" selection-end-line="202" selection-end-column="21" />
           <folding>
+            <element signature="e#0#8710#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#681#689#0" expanded="true" />
-            <element signature="e#1131#1139#0" expanded="true" />
-            <element signature="e#1132#1147#0" expanded="true" />
-            <element signature="e#2919#2920#0" expanded="true" />
-            <element signature="e#2990#2991#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -759,16 +693,39 @@
     <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/BenchmarkCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/Runner.java">
+    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/annotations/Measurement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="241" column="16" lean-forward="true" selection-start-line="241" selection-start-column="16" selection-end-line="241" selection-end-column="16" />
+        <state relative-caret-position="209">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding>
-            <element signature="e#0#9709#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../performanceTesting/performanceTesting.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/BCaseLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-613">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../performanceTesting/src/main/java/com/bitstudy/cases/StringConcat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="220" column="9" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#5772#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>

@@ -201,7 +201,7 @@ public class Runner {
              import java.util.logging.MemoryHandler;
 
 public class Runner {
-    public static List<BenchmarkCase> initCase() throws IOException, IllegalAccessException, InstantiationException, ClassNotFoundException {
+    public static List<BenchmarkCase> initCase() throws ClassNotFoundException, InstantiationException, IllegalAccessException, IOException {
         return new BCaseLoader().load();
     }
 

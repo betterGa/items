@@ -11,7 +11,8 @@ import java.util.List;
 
 
 public class BCaseLoader {
-    List<BenchmarkCase> load() throws IOException, InstantiationException, IllegalAccessException, ClassNotFoundException {
+    List<BenchmarkCase> load() throws IOException, InstantiationException, IllegalAccessException, ClassNotFoundException
+    {
         List<String> bCaseClassNameList = scanBCaseClassNameList();
         List<BenchmarkCase> bCaseList = buildBCaseList(bCaseClassNameList);
         System.out.printf("共加载%d个基准测试case%m%m", bCaseList.size());
@@ -27,8 +28,9 @@ public class BCaseLoader {
                 URL url = urls.nextElement();
                 if (!url.getProtocol().equals("file"))
                 { continue; }
+              else{  classNameList.addAll(scanClassesFromFile(URLDecoder.decode(url.getPath(), "UTF-8"))); }
 
-         classNameList.addAll(scanClassesFromFile(URLDecoder.decode(url.getPath(), "UTF-8")));}}
+        }}
             catch (IOException e) {
          return classNameList;
         }return classNameList;
@@ -58,15 +60,23 @@ public class BCaseLoader {
         return classNameList;
     }
 
-    private List<BenchmarkCase> buildBCaseList(List<String> bCaseClassNameList) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
+    private List<BenchmarkCase> buildBCaseList(List<String> bCaseClassNameList)
+    {
         List<BenchmarkCase> bCaseList = new ArrayList<BenchmarkCase>(bCaseClassNameList.size());
         for (String className : bCaseClassNameList) {
-            Class<?>  bCaseClass = Class.forName(className);
-            if (!isBcaseClass(bCaseClass))
-            { continue; }
-            BenchmarkCase bCase = (BenchmarkCase) bCaseClass.newInstance();
-            bCaseList.add(bCase);
+            try {
+                Class<?>bCaseClass=Class.forName(className);
+                if (!isBcaseClass(bCaseClass))
+                { continue; }
+                BenchmarkCase bCase = (BenchmarkCase) bCaseClass.newInstance();
+                bCaseList.add(bCase);
+            }
+            catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
 
+catch (InstantiationException e){e.printStackTrace();}
+catch (IllegalAccessException e){e.printStackTrace();}
         }
         return bCaseList; }
 
