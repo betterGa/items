@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JulyChatRoomSocket:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="JulyChatRoomSocket-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JulyChatRoomSocket:war exploded" />
+    </root>
+  </artifact>
+</component>
