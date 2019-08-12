@@ -10,7 +10,11 @@ import java.util.Properties;
 
 //用于封装共有的工具方法，如加载配置工具，所有的工具类都属于静态方法
 public class CommUtil {
-private CommUtil(){}
+
+    private static final Gson gson=new GsonBuilder().create();
+//和datasource=DruidDataSourceFactory.createDataSource(properties)很像，都是"create"
+
+    private CommUtil(){}
 
 public static Properties loadProperties(String fileName)
 {Properties properties=new Properties();
@@ -27,8 +31,6 @@ public static Properties loadProperties(String fileName)
 }
 
 
-    private static final Gson gson=new GsonBuilder().create();
-//和datasource=DruidDataSourceFactory.createDataSource(properties)很像，都是"create"
 
     public static String objectToJson(Object obj)
     {return gson.toJson(obj);}

@@ -41,7 +41,7 @@ System.out.println(user2);
 
     @Test
     public void loadProperties() {
-    String fileneame="db.properties";
+    String fileneame="datasource.properties";
         Properties properties=CommUtil.loadProperties(fileneame);
         String username=properties.getProperty("username");
         //如果加载资源配置文件成功，url的值一定不为空，在此使用断言
