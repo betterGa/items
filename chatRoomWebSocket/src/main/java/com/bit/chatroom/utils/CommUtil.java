@@ -40,4 +40,9 @@ public static Properties loadProperties(String fileName)
     {return gson.fromJson(jsonstr,objclass);}
 
 
-}
+
+    public static boolean strIsnull(String str)
+    {return str==null||str.equals("");
+    //顺序不可颠倒，否则str变成空指针了。
+
+}}
