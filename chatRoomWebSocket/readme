@@ -1,0 +1,56 @@
+JDBC:
+1.加载驱动
+Class.forName("com.mysql.jdbc.Driver");
+
+2.获取连接
+Connection connerction=DriverManager.getConnection(url,username,password);
+url:jdbc:mysql://localhost:3306/db_name
+
+3.执行sql语句
+Statement执行sql语句的对象
+ResultSet获取sql执行数据
+
+4.关闭资源
+
+以上四个步骤可封装在工具类中；
+加载配置文件也需要工具类
+
+
+PrepareStatement预编译sql类，使用占位符？来占位用户名、密码等需要外部传入的字段，不是字符串拼接，避免sql注入。
+
+properties类是Hashtable的主类
+通过外部资源加载以上属性
+
+
+
+select语句，用executeQuery(),返回ResultSet
+
+insert
+update
+delete语句，用executeUpdate
+
+业务开发分为3层：
+dao层：java操作数据库，把信息持久化到数据库中
+service层:中间的业务层,具体处理用户业务
+controller:调用service，获取数据，返回给客户端/从客户端获得数据，调用业务进行处理
+
+
+## WebSocket ##
+Http协议是如何工作的：
+浏览器端和服务器端，一般都是浏览器发送请求——单边通信。
+服务端是被动通信。
+之前的多线程聊天室有服务端和客户端，服务端可以给客户端发送信息——全双工信息。
+而WebSocket是全双工通信，服务端可以主动向浏览器发送信息。仍属于TCP-IP协议 是应用层协议。
+
+http://域名：端口号
+ws://域名：端口号
+
+ 需要把http协议转换为WebSocket请求,是一个协议的升级过程：
+ 客户端发起WebSocket连接时，先发送升级请求 Upgrade ,
+ 服务器发送响应：101  升级
+ 即这时协议都变成WebSocket协议
+
+
+
+
+
